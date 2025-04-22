@@ -6,7 +6,7 @@ import { Card } from "../Card";
 
 
 //create your first component
-function Home = () => {
+ const Home = () => {
 	return (
 		
 		

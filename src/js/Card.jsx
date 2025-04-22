@@ -4,40 +4,42 @@ import PropTypes from "prop-types";
 export const Card = (props) => {
     return (
         <>
-                        <div className={props.cardnumbers1}>
-                    <p>1</p>
+            <div className="counter">
+                <div className="cardnumbers1">
+                    <p>{props.cardnumbers1}</p>
                 </div>
-                <div className={props.cardnumbers2}>
-                    <p>1</p>
+                <div className="cardnumbers2">
+                    <p>{props.cardnumbers2}</p>
                 </div>
-                <div className={props.cardnumbers3}>
-                    <p>1</p>
+                <div className="cardnumbers3">
+                    <p>{props.cardnumbers3}</p>
                 </div>
-                <div className={props.cardnumbers4}>
-                    <p>1</p>
+                <div className="cardnumbers4">
+                    <p>{props.cardnumbers4}</p>
                 </div>
-                <div className={props.cardnumbers5}>
-                    <p>1</p>
+                <div className="cardnumbers5">
+                    <p>{props.cardnumbers5}</p>
                 </div>
-                <div className={props.cardnumbers6}>
-                    <p>1</p>
+                <div className="cardnumbers6">
+                    <p>{props.cardnumbers6}</p>
                 </div>
-                <div className={props.cardnumbers7}>
-                    <p>1</p>
+                <div className="cardnumbers7">
+                    <p>{props.cardnumbers7}</p>
                 </div>
-            </>
+            </div>
+        </>
 
-        
+
     )
 }
 
 Card.propTypes = {
-    cardnumbers1 : PropTypes.number,
-    cardnumbers2 : PropTypes.number,
-    cardnumbers3 : PropTypes.number,
-    cardnumbers4 : PropTypes.number,
-    cardnumbers5 : PropTypes.number,
-    cardnumbers6 : PropTypes.number,
-    cardnumbers7 : PropTypes.number
+
+    cardnumbers2: PropTypes.string,
+    cardnumbers3: PropTypes.string,
+    cardnumbers4: PropTypes.string,
+    cardnumbers5: PropTypes.string,
+    cardnumbers6: PropTypes.string,
+    cardnumbers7: PropTypes.string
 
 }
