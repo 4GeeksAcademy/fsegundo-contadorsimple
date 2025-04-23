@@ -6,25 +6,25 @@ export const Card = (props) => {
         <>
             <div className="counter">
                 <div className="cardnumbers1">
-                    <p>{props.cardnumbers1}</p>
+                    <p>s</p>
                 </div>
                 <div className="cardnumbers2">
-                    <p>{props.cardnumbers2}</p>
+                    <p>{props.cardnumbers2  % 10}</p>
                 </div>
                 <div className="cardnumbers3">
-                    <p>{props.cardnumbers3}</p>
+                    <p>{props.cardnumbers3  % 10}</p>
                 </div>
                 <div className="cardnumbers4">
-                    <p>{props.cardnumbers4}</p>
+                    <p>{props.cardnumbers4  % 10 }</p>
                 </div>
                 <div className="cardnumbers5">
-                    <p>{props.cardnumbers5}</p>
+                    <p>{props.cardnumbers5 % 10}</p>
                 </div>
                 <div className="cardnumbers6">
-                    <p>{props.cardnumbers6}</p>
+                    <p>{props.cardnumbers6  % 10}</p>
                 </div>
                 <div className="cardnumbers7">
-                    <p>{props.cardnumbers7}</p>
+                    <p>{props.cardnumbers7  % 10}</p>
                 </div>
             </div>
         </>
@@ -35,11 +35,11 @@ export const Card = (props) => {
 
 Card.propTypes = {
 
-    cardnumbers2: PropTypes.string,
-    cardnumbers3: PropTypes.string,
-    cardnumbers4: PropTypes.string,
-    cardnumbers5: PropTypes.string,
-    cardnumbers6: PropTypes.string,
-    cardnumbers7: PropTypes.string
+    cardnumbers2: PropTypes.number,
+    cardnumbers3: PropTypes.number,
+    cardnumbers4: PropTypes.number,
+    cardnumbers5: PropTypes.number,
+    cardnumbers6: PropTypes.number,
+    cardnumbers7: PropTypes.number
 
 }
